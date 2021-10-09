@@ -37,7 +37,7 @@
                             <button type="submit" class="btn btn-primary" name="login">Login</button>
                         </div>
                     </form>
-                    <p class="mt-2 mb-0">Belum punya akun ? <a href="./registerPage.php" class="textprimary">Klik Disini!</a></p>
+                    <p class="mt-2 mb-0">Belum punya akun ? <a href="./registerPage.php" class="text-primary">Klik Disini!</a></p>
                 </div>
         </div>
     </div>

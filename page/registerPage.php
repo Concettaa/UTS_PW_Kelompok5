@@ -59,11 +59,11 @@
                                     <div class="mb-3">
                                         <label for="inputAddress" class="form-label">Jenis Kelamin</label>
                                         <div class="form-group">
-                                            <input class="form-check-input" type="radio" name="jenisKelamin" checked>
+                                            <input class="form-check-input" type="radio" name="jenisKelamin" value="Pria" checked>
                                             <label class="form-check-label" for="pria" value="Pria" >
                                                 Pria
                                             </label>
-                                            <input class="form-check-input" type="radio" name="jenisKelamin">
+                                            <input class="form-check-input" type="radio" name="jenisKelamin" value="Wanita">
                                             <label class="form-check-label" for="wanita" value="Wanita">
                                                 Wanita
                                             </label>

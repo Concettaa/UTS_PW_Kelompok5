@@ -1,5 +1,10 @@
 <?php
-
+    session_start();
+    if (!$_SESSION['isLogin']) {
+        header("location: ../page/loginPage.php");
+    }else {
+        include('../db.php');
+    }
 echo'
 <!doctype html>
     <html lang="en">

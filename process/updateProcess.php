@@ -1,20 +1,32 @@
 <?php
 
-    if(isset($_POST['edit'])){
+    if(isset($_POST['update'])){
         include ('../db.php');
 
         $id = $_POST['id'];
+        $nama = $_POST['name'];
         $username = $_POST['username'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-        $name = $_POST['name'];
-        $npm = $_POST['npm'];
-        $prodi = $_POST['prodi'];
+        $alamat = $_POST['alamat'];
+        $jenis_kelamin = $_POST['jenisKelamin'];
+        $tanggal_lahir = $_POST['birthdate'];
+        $email = $_POST['email'];
+        
+
         $query = mysqli_query($con, 
-        "UPDATE login SET name = '$name',  username = '$username', password = '$password',  npm = '$npm', prodi = '$prodi' WHERE  id = '$id'") 
+        "UPDATE login SET 
+            nama = '$nama',  
+            username = '$username', 
+            password = '$password',  
+            alamat = '$alamat', 
+            jenis_kelamin = '$jenis_kelamin', 
+            tanggal_lahir = '$tanggal_lahir', 
+            email = '$email' 
+        WHERE  id = '$id'") 
         or die(mysqli_error($con));
 
         if($query){
-            echo '<script> alert("Edit Success"); window.location = "../dashboardPage.php" </script>';
+            echo '<script> alert("Edit Success"); window.location = "../page/dashboardPage.php" </script>';
         }else{
             echo '<script> alert("Edit Failed"); </script>';
         }

@@ -8,11 +8,12 @@
         $alamat = $_POST['alamat'];
         $jenis_kelamin = $_POST['jenisKelamin'];
         $tanggal_lahir = $_POST['birthdate'];
+        $email = $_POST['email'];
 
         $query = mysqli_query($con,
-            "INSERT INTO login(nama, username, password, alamat, jenis_kelamin, tanggal_lahir)
+            "INSERT INTO login(nama, username, password, alamat, jenis_kelamin, tanggal_lahir, email)
                 VALUES
-            ('$nama', '$username', '$password', '$alamat', '$jenis_kelamin', '$tanggal_lahir')")
+            ('$nama', '$username', '$password', '$alamat', '$jenis_kelamin', '$tanggal_lahir', '$email')")
                 or die(mysqli_error($con));
 
         
