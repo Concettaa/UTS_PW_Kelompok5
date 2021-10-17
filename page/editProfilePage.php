@@ -65,7 +65,15 @@
                                 
                 
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary" name="update">Update</button>
+                            <button type="submit" class="btn btn-success" name="update">Update</button>
+                        </div>
+                        <br>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary" name="cancel">Cancel</button>
+                        </div>
+                        <br>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-danger" name="delete">Delete Account</button>
                         </div>
                     </form>
                 </div>

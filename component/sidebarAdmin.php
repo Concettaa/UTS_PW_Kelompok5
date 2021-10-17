@@ -1,7 +1,7 @@
 <?php
     session_start();
     if (!$_SESSION['isLogin']) {
-        header("location: ../page/loginPage.php");
+        header("location: ../page/loginAdminPage.php");
     }else {
         include('../db.php');
     }
@@ -67,19 +67,19 @@ echo'
                 <div class="menu">
                     <div class="content-menu" >
                         <i class="fa fa-user"></i>
-                        <a href="./editProfilePage.php" style="font-weight:600" >Account</a>
+                        <a href="./editAdminProfilePage.php" style="font-weight:600" >Account</a>
                     </div>
                     <div class="content-menu" >
                         <i class="fa fa-book"></i>
-                        <a href="./dashboardPage.php" style="font-weight:600" >E-Book</a>
+                        <a href="./dashboardAdminPage.php" style="font-weight:600" >E-Book</a>
                     </div>
-                    <div class="content-menu" style="position: absolute; bottom: 50px;">
-                        <i class="fa fa-headphones"></i>
-                        <a href="./contactUsPage.php" style="font-weight:600">Contact Us</a>
+                    <div class="content-menu" >
+                        <i class="fa fa-plus"></i>
+                        <a href="./addBookPage.php" style="font-weight:600" >Add E-Book</a>
                     </div>
                     <div class="content-menu" style="position: absolute; bottom: 5px;">
                         <i class="fa fa-sign-out"></i>
-                        <a href="../process/logoutProcess.php" style="font-weight:600">Log Out</a>
+                        <a href="../adminProcess/logoutAdminProcess.php" style="font-weight:600">Log Out</a>
                     </div>
                 <hr>
             </div>

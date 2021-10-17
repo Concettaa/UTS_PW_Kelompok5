@@ -33,27 +33,27 @@
                             <form action="../process/registerProcess.php" method="post" class="row g-3" style="justify-content-end">
                                 <div class="mb-3">
                                     <label for="inputName" class="form-label">Nama</label>
-                                    <input type="text" class="form-control" name="name" placeholder="name" style="width: 500px">
+                                    <input type="text" class="form-control" name="name" placeholder="name" style="width: 500px" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="inputAddress" class="form-label">Alamat</label>
-                                    <input type="text" class="form-control" name="alamat" placeholder="alamat" style="width: 500px">
+                                    <input type="text" class="form-control" name="alamat" placeholder="alamat" style="width: 500px" required>
                                 </div>    
                                 <div class="mb-3">
                                     <label for="inputEmail4" class="form-label">Email</label>
-                                    <input type="email" class="form-control" name="email" placeholder="ABC@XXXXX.com" style="width: 500px">
+                                    <input type="email" class="form-control" name="email" placeholder="ABC@XXXXX.com" style="width: 500px" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="inputAddress" class="form-label">Username</label>
-                                    <input type="text" class="form-control" name="username" placeholder="username" style="width: 500px">
+                                    <input type="text" class="form-control" name="username" placeholder="username" style="width: 500px" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="inputPassword4" class="form-label">Password</label>
-                                    <input type="password" class="form-control" name="password" placeholder="password" style="width: 500px">
+                                    <input type="password" class="form-control" name="password" placeholder="password" style="width: 500px" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="inputAddress" class="form-label">Birth Date</label>
-                                    <input type="date" class="form-control" name="birthdate" style="width: 500px">
+                                    <input type="date" class="form-control" name="birthdate" style="width: 500px" required>
                                 </div>
                                 <div class="form-group">
                                     <div class="mb-3">
@@ -68,14 +68,6 @@
                                                 Wanita
                                             </label>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
-                                        Register Agreement
-                                        </label>
                                     </div>
                                 </div>
                                 <div class="mb-3">

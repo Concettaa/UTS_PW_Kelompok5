@@ -23,7 +23,7 @@
         <div class="card text-dark bg-light ma-5 shadow" style="min-width: 25rem;">
             <div class="card-header fw-bold">Login</div>
                 <div class="card-body">
-                    <form action="../process/loginProcess.php" method="post">
+                    <form action="../adminProcess/loginAdminProcess.php" method="post">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>
                             <input class="form-control" id="username" name="username" aria-describedby="emailHelp">
@@ -37,8 +37,6 @@
                             <button type="submit" class="btn btn-primary" name="login">Login</button>
                         </div>
                     </form>
-                    <p class="mt-2 mb-0">Belum punya akun ? <a href="./registerPage.php" class="text-primary">Klik Disini!</a></p>
-                    <p class="mt-2 mb-0">Login sebagai admin <a href="../adminPage/loginAdminPage.php" class="text-primary">Klik Disini!</a></p>
                 </div>
         </div>
     </div>

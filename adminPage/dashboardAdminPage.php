@@ -1,5 +1,5 @@
 <?php
-        include '../component/sidebar.php';
+        include '../component/sidebarAdmin.php';
 ?>
         <div class="content" style="margin-left: 50px;">
             <div class="header" style="margin-top: 10px;">
@@ -8,7 +8,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">Search</span>
                     </div>
-                    <form class="row g-3" action="../process/searchProcess.php" method="post">
+                    <form class="row g-3" action="../adminProcess/searchAdminProcess.php" method="post">
                         <div class="col-auto">
                             <input type="text" id="search" name="search" class="form-control" placeholder="ketik disini.." aria-label="Search" value="search" style="width: 1000px">
                         </div>
@@ -35,13 +35,24 @@
                                         alt="Card image cap"
                                         style="height:250px; object-fit:cover; "
                                     >
+
                                     <div class="card-body">
                                         <h5 class="card-title">'.$buku['judul'].'</h5>
                                     </div>
-                                        
-                                    <a href= "../process/detailBookProcess.php?id='.$buku['id'].'" >
-                                        <button type="submit" class="btn btn-primary">Detail</button>
-                                    </a>
+
+                                    <div class="col-md-12 text-center">
+                                        <a href= "../adminProcess/detailAdminBookProcess.php?id='.$buku['id'].'" >
+                                            <button style="width: 200px" type="submit" class="btn btn-primary">Detail</button>
+                                        </a>
+                                        <br><br>
+                                        <a href="./updateBook.php?id='.$buku['id'].'">
+                                            <button style="width: 200px" type="submit" class="btn btn-success">Update</button>
+                                        </a>
+                                        <br><br>
+                                        <a href="../adminProcess/deleteBookProcess.php?id='.$buku['id'].'">
+                                            <button style="width: 200px" type="submit" class="btn btn-danger">Delete</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         ';} ?>

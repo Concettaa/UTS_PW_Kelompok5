@@ -1,5 +1,5 @@
 <?php
-        include '../component/sidebar.php';
+        include '../component/sidebarAdmin.php';
 ?>
         <div class="content" style="margin-left: 50px;">
             <div class="header" style="margin-top: 10px;">
@@ -44,9 +44,8 @@
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <h5 class="desc">Deskripsi</h5>
+                            <h6><?php echo $row['deskripsi']?></h6>
                             </div>
-                        <?php
-                        //}else{ echo "no record found";}?>
                     </div>
                 </div>
             </div>
