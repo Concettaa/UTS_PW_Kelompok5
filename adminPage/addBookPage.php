@@ -23,7 +23,10 @@
                     <input type="text" class="form-control" id="genre" name="genre" aria-describedby="emailHelp">
                     <br>
                     <h5>Deskripsi</h5>
-                    <input type="text" style="height: 200px;" class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp">
+                    <textarea style="height: 200px;" class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp"></textarea>
+                    <br>
+                    <h5>Isi Cerita</h5>
+                    <textarea style="height: 200px;" class="form-control" id="isi" name="isi" aria-describedby="emailHelp"></textarea>
                     <br><br>
                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                 </div>

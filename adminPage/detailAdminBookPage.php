@@ -13,8 +13,8 @@
                     ?>  
                     <div class="row"> 
                             <div class="col">
-                        
-                                <div class="card" style="max-width:240px; margin-top:20px; margin-bottom: 20px;">
+                            <center>
+                                <div class="card" style="max-width:500px; margin-top:20px; margin-bottom: 20px;">
                                     <img
                                         class="card-img-top"
                                         src="<?php echo $row['link_gambar']?>"
@@ -22,6 +22,7 @@
                                         style="height:200%; object-fit:cover;margin:auto"
                                     >
                                 </div>
+                            </center>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                 <br>
@@ -36,7 +37,7 @@
                                         <h6><?php echo $row['genre']?></h6>
                                         <br>
                                         <br>
-                                    <a href="#" class="btn btn-primary">Baca sekarang</a>
+                                    <a href="./readPageAdmin.php" class="btn btn-primary">Baca sekarang</a>
                                         <br>
                                         <br>
                                 </div>
@@ -44,7 +45,7 @@
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <h5 class="desc">Deskripsi</h5>
-                            <h6><?php echo $row['deskripsi']?></h6>
+                            <h6 style="width:1000px"><?php echo $row['deskripsi']?></h6>
                             </div>
                     </div>
                 </div>

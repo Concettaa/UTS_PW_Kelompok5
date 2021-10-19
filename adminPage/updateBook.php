@@ -14,7 +14,7 @@
                     <div class="row"> 
                             <div class="col">
                             <center>
-                                <div class="card" style="max-width:240px; margin-top:20px; margin-bottom: 20px;">
+                                <div class="card" style="max-width:500px; margin-top:20px; margin-bottom: 20px;">
                                     <img
                                         class="card-img-top"
                                         src="<?php echo $row['link_gambar']?>"
@@ -38,9 +38,10 @@
                                         <h5>Genre</h5>
                                             <input type="text" class="form-control" id="genre" name="genre" aria-describedby="emailHelp" value="<?php echo $row['genre']?>">
                                             <br>
-                                        <h5>Deskripsi</h5>
-                                        <input type="text" style="height: 200px;" class="form-control" id="deskripsi" name="deskripsi" 
-                                            aria-describedby="emailHelp" value="<?php echo $row['deskripsi']?>">
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <h5 class="desc">Deskripsi</h5>
+                                                <textarea id="deskripsi" name="deskripsi" style="width:500px"><?php echo $row['deskripsi']?></textarea>
+                                            </div>
                                             <br><br>
                                         <button type="submit" class="btn btn-primary" name="update">Update</button>
                                         <button type="submit" class="btn btn-danger" name="cancel">Cancel</button>

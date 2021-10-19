@@ -6,12 +6,13 @@
         $judul = $_POST['judul'];
         $tahun_terbit = $_POST['tahun_terbit'];
         $genre = $_POST['genre'];
-        $deskrips = $_POST['deskrips'];
+        $deskripsi = $_POST['deskripsi'];
+        $isi = $_POST['isi'];
 
         $query = mysqli_query($con,
-            "INSERT INTO buku(judul, tahun_terbit, genre, deskripsi, link_gambar)
+            "INSERT INTO buku(judul, tahun_terbit, genre, deskripsi, link_gambar, isi)
                 VALUES
-            ('$judul', '$tahun_terbit', '$genre', '$deskrips', '$link_gambar')")
+            ('$judul', '$tahun_terbit', '$genre', '$deskripsi', '$link_gambar', '$isi')")
                 or die(mysqli_error($con));
 
         
