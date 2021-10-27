@@ -28,7 +28,7 @@ echo'
 
         .side-bar {
             width: 260px;
-            background-color: #16347A;
+            background-color: #50798E;
             min-height: 100vh;
         }
         
@@ -62,7 +62,7 @@ echo'
         <aside >
             <div class="d-flex">
                 <div class="side-bar">
-                <h2 class="text-light text-center pt-2">Brand</h2>
+                <h2 class="text-light text-center pt-2">SiBooks</h2>
                 <hr>
                 <div class="menu">
                     <div class="content-menu" >

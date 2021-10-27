@@ -13,7 +13,7 @@
         ?>
         <h3><?php echo $row['judul']?></h3>
         <hr>
-        <p style="width:1000px"><?php echo $row['isi']?></p>
+        <p style="width:1000px; text-align:justify"><?php echo $row['isi']?></p>
         </div>
     </div>
 </div>

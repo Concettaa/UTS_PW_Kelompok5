@@ -49,7 +49,7 @@ require '../PHPMailer/src/SMTP.php';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->SMTPAuth = true;
             $mail->Username = 'jonathanks2005@gmail.com';
-            $mail->Password = 'gataudahapa';
+            $mail->Password = 'SimpingJean';
             $mail->setFrom('no-reply@yourwebsite.com', 'Your website service');
             //Set an alternative reply-to address
             //$mail->addReplyTo('replyto@example.com', 'First Last');

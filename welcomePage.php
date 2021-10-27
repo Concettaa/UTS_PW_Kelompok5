@@ -14,7 +14,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Brand</a>
+            <a class="navbar-brand fw-bold" href="#">SiBooks</a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="./page/registerPage.php" id="linkStyle">Registrasi</a>
@@ -36,24 +36,18 @@
         <img src="https://images.unsplash.com/photo-1472745433479-4556f22e32c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80"
         class="d-block w-100" alt="Gambar1">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1290&q=80"
         class="d-block w-100" alt="Gambar2">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="https://images.unsplash.com/photo-1519682577862-22b62b24e493?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
         class="d-block w-100" alt="Gambar3">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
     </div>
